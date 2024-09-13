@@ -140,38 +140,38 @@ const mulQues = ["./q/phy/1.png",
 "./q/phy/9.png"]
 const mulAns = ["gravity","magnetic force","reduces the amount of force needed","newton","potential energy","normal force","acceleration","mass","kinetic energy"]
 
-const divQues = ["./ques/division/division-1.png",
-"./ques/division/division-2.png",
-"./ques/division/division-3.png",
-"./ques/division/division-4.png",
-"./ques/division/division-5.png",
-"./ques/division/division-6.png",
-"./ques/division/division-7.png",
-"./ques/division/division-8.png",
-"./ques/division/division-9.png"]
-const divAns = ["50","0.105","0.7","111","5/10","5/21","8^2","4","45^6"]
+const divQues = ["./q/bio/1.png",
+"./q/bio/2.png",
+"./q/bio/3.png",
+"./q/bio/4.png",
+"./q/bio/5.png",
+"./q/bio/6.png",
+"./q/bio/7.png",
+"./q/bio/8.png",
+"./q/bio/9.png"]
+const divAns = ["cell", "root", "photosynthesis", "heart", "to produce energy", "nucleus", "to absorb water and nutrients", "artery", "mitosis"]
 
-const addMulQues = ["./ques/addmul/addmul-1.png",
-"./ques/addmul/addmul-2.png",
-"./ques/addmul/addmul-3.png",
-"./ques/addmul/addmul-4.png",
-"./ques/addmul/addmul-5.png",
-"./ques/addmul/addmul-6.png",
-"./ques/addmul/addmul-7.png",
-"./ques/addmul/addmul-8.png",
-"./ques/addmul/addmul-9.png"]
-const addMulAns = ["50","34","23.5","12z^4","3/2","18","1","8a^6+7a","7^5+7^2"]
+const addMulQues = ["./q/bio/10.png",
+"./q/bio/11.png",
+"./q/bio/12.png",
+"./q/bio/13.png",
+"./q/bio/14.png",
+"./q/bio/15.png",
+"./q/bio/16.png",
+"./q/bio/17.png",
+"./q/bio/18.png"]
+const addMulAns = ["to absorb light for photosynthesis", "circulatory system", "transpiration", "cardiac muscle", "to control what enters and exits the cell", "to absorb nutrients", "flower", "to store water and nutrients", "to synthesize proteins"]
 
-const addSubQues = ["./ques/addsub/addsub-1.png",
-"./ques/addsub/addsub-2.png",
-"./ques/addsub/addsub-3.png",
-"./ques/addsub/addsub-4.png",
-"./ques/addsub/addsub-5.png",
-"./ques/addsub/addsub-6.png",
-"./ques/addsub/addsub-7.png",
-"./ques/addsub/addsub-8.png",
-"./ques/addsub/addsub-9.png"]
-const addSubAns = ["673","342","40","3x^2","-3/5","28","1/2","6x^3","8^2"]
+const addSubQues = ["./q/bio/19.png",
+"./q/bio/20.png",
+"./q/bio/21.png",
+"./q/bio/22.png",
+"./q/bio/23.png",
+"./q/bio/24.png",
+"./q/bio/25.png",
+"./q/bio/26.png",
+"./q/bio/27.png"]
+const addSubAns = ["digestive system", "photosynthesis", "cell wall", "autotrophs", "tissue", "fermentation", "to carry out photosynthesis", "plasma", "red blood cells"]
 
 const divMulQues = ["./ques/divmul/divmul-1.png",
 "./ques/divmul/divmul-2.png",
