@@ -157,7 +157,7 @@ const addMulQues = ["./q/bio/10.png",
 "./q/bio/13.png",
 "./q/bio/14.png",
 "./q/bio/15.png",
-"./q/bio/16.png",
+"./q/bio/16.png",       
 "./q/bio/17.png",
 "./q/bio/18.png"]
 const addMulAns = ["to absorb light for photosynthesis", "circulatory system", "transpiration", "cardiac muscle", "to control what enters and exits the cell", "to absorb nutrients", "flower", "to store water and nutrients", "to synthesize proteins"]
@@ -173,38 +173,38 @@ const addSubQues = ["./q/bio/19.png",
 "./q/bio/27.png"]
 const addSubAns = ["digestive system", "photosynthesis", "cell wall", "autotrophs", "tissue", "fermentation", "to carry out photosynthesis", "plasma", "red blood cells"]
 
-const divMulQues = ["./ques/divmul/divmul-1.png",
-"./ques/divmul/divmul-2.png",
-"./ques/divmul/divmul-3.png",
-"./ques/divmul/divmul-4.png",
-"./ques/divmul/divmul-5.png",
-"./ques/divmul/divmul-6.png",
-"./ques/divmul/divmul-7.png",
-"./ques/divmul/divmul-8.png",
-"./ques/divmul/divmul-9.png"]
-const divMulAns = ["526","50","44.4","35","4","88.4","2","6a^5","5^9"]
-
-const divSubQues = ["./ques/divsub/divsub-1.png",
-"./ques/divsub/divsub-2.png",
-"./ques/divsub/divsub-3.png",
-"./ques/divsub/divsub-4.png",
-"./ques/divsub/divsub-5.png",
-"./ques/divsub/divsub-6.png",
-"./ques/divsub/divsub-7.png",
-"./ques/divsub/divsub-8.png",
-"./ques/divsub/divsub-9.png"]
-const divSubAns = ["13","0","1/3","41.5","1","x","-4","-60","4.5"]
-
-const allQues = ["./ques/allop/allop-1.png",
-"./ques/allop/allop-2.png",
-"./ques/allop/allop-3.png",
-"./ques/allop/allop-4.png",
-"./ques/allop/allop-5.png",
-"./ques/allop/allop-6.png",
-"./ques/allop/allop-7.png",
-"./ques/allop/allop-8.png",
-"./ques/allop/allop-9.png"]
-const allAns = ["18","4.2","0","50","1/18","a^2","-15","35","13"]
+const divMulQues = ["./q/chem/1.png",
+"./q/chem/2.png",
+"./q/chem/3.png",
+"./q/chem/4.png",
+"./q/chem/5.png",
+"./q/chem/6.png",
+"./q/chem/7.png",
+"./q/chem/8.png",
+"./q/chem/9.png"]
+const divMulAns = ["atom", "burning wood", "compound", "melting", "dull appearance", "solution", "chemical change", "evaporation", "oxygen"]
+    
+const divSubQues = ["./q/chem/10.png",
+"./q/chem/11.png",
+"./q/chem/12.png",
+"./q/chem/13.png",
+"./q/chem/14.png",
+"./q/chem/15.png",
+"./q/chem/16.png",
+"./q/chem/17.png",
+"./q/chem/18.png"]
+const divSubAns = ["volume", "condensation", "sulfur", "solubility", "covalent bond", "precipitate", "sand and salt", "freezing", "sour taste"]
+    
+const allQues = ["./q/chem/19.png",
+"./q/chem/20.png",
+"./q/chem/21.png",
+"./q/chem/22.png",
+"./q/chem/23.png",
+"./q/chem/24.png",
+"./q/chem/25.png",
+"./q/chem/26.png",
+"./q/chem/27.png"]
+const allAns = ["catalyst", "hydrogen", "physical change", "sublimation", "boiling of water", "solute", "endothermic reaction", "solution", "reactivity with acid"]
 
 //prompt-functioning
 // function addPrompt(){
@@ -3590,7 +3590,7 @@ function circle56() {
         }else{
             input.value = ""
             x+=1
-            proceed.classList.remove("active")
+            prompt.classList.remove("active")
             submit.removeEventListener("submit",submission)
         }
     
@@ -3640,7 +3640,7 @@ function circle57() {
         }else{
             input.value = ""
             x+=1
-            proceed.classList.remove("active")
+            prompt.classList.remove("active")
             submit.removeEventListener("submit",submission)
         }
     
@@ -3690,7 +3690,7 @@ function circle58() {
         }else{
             input.value = ""
             x+=1
-            proceed.classList.remove("active")
+            prompt.classList.remove("active")
             submit.removeEventListener("submit",submission)
         }
     
@@ -3740,7 +3740,7 @@ function circle59() {
         }else{
             input.value = ""
             x+=1
-            proceed.classList.remove("active")
+            prompt.classList.remove("active")
             submit.removeEventListener("submit",submission)
         }
     
@@ -3790,7 +3790,7 @@ function circle60() {
         }else{
             input.value = ""
             x+=1
-            proceed.classList.remove("active")
+            prompt.classList.remove("active")
             submit.removeEventListener("submit",submission)
         }
     
@@ -3840,7 +3840,7 @@ function circle61() {
         }else{
             input.value = ""
             x+=1
-            proceed.classList.remove("active")
+            prompt.classList.remove("active")
             submit.removeEventListener("submit",submission)
         }
     
@@ -3890,7 +3890,7 @@ function circle62() {
         }else{
             input.value = ""
             x+=1
-            proceed.classList.remove("active")
+            prompt.classList.remove("active")
             submit.removeEventListener("submit",submission)
         }
     
@@ -3940,7 +3940,7 @@ function circle63() {
         }else{
             input.value = ""
             x+=1
-            proceed.classList.remove("active")
+            prompt.classList.remove("active")
             submit.removeEventListener("submit",submission)
         }
     
