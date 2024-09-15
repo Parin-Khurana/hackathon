@@ -3574,7 +3574,7 @@ function circle56() {
         }else{
             input.value = ""
             x+=1
-            proceed.classList.remove("active")
+            prompt.classList.remove("active")
             submit.removeEventListener("submit",submission)
         }
     
@@ -3624,7 +3624,7 @@ function circle57() {
         }else{
             input.value = ""
             x+=1
-            proceed.classList.remove("active")
+            prompt.classList.remove("active")
             submit.removeEventListener("submit",submission)
         }
     
@@ -3674,7 +3674,7 @@ function circle58() {
         }else{
             input.value = ""
             x+=1
-            proceed.classList.remove("active")
+            prompt.classList.remove("active")
             submit.removeEventListener("submit",submission)
         }
     
@@ -3724,7 +3724,7 @@ function circle59() {
         }else{
             input.value = ""
             x+=1
-            proceed.classList.remove("active")
+            prompt.classList.remove("active")
             submit.removeEventListener("submit",submission)
         }
     
@@ -3774,7 +3774,7 @@ function circle60() {
         }else{
             input.value = ""
             x+=1
-            proceed.classList.remove("active")
+            prompt.classList.remove("active")
             submit.removeEventListener("submit",submission)
         }
     
@@ -3824,7 +3824,7 @@ function circle61() {
         }else{
             input.value = ""
             x+=1
-            proceed.classList.remove("active")
+            prompt.classList.remove("active")
             submit.removeEventListener("submit",submission)
         }
     
@@ -3874,7 +3874,7 @@ function circle62() {
         }else{
             input.value = ""
             x+=1
-            proceed.classList.remove("active")
+            prompt.classList.remove("active")
             submit.removeEventListener("submit",submission)
         }
     
@@ -3924,7 +3924,7 @@ function circle63() {
         }else{
             input.value = ""
             x+=1
-            proceed.classList.remove("active")
+            prompt.classList.remove("active")
             submit.removeEventListener("submit",submission)
         }
     
