@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    <title>Remedial Learning</title>
+    <style>
+        body {
+            font-family: 'Oswald', sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-size: 18px;
+            background-color: black;
+            color: white;
+            transition: background-color 0.5s;
+            align-items: center;
+        }
+
+        header {
+            background-color: #1c1c1c;
+            color: orange;
+            text-align: center;
+            padding: 20px 0;
+            height: 10vh;
+            position: relative;
+            overflow: hidden;
+            height:14vh;
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 3rem;
+            background: linear-gradient(90deg, #ff7e5f, #feb47b);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            animation: fadeIn 2s;
+        }
+
+        .slogan {
+            font-size: 1.5rem;
+            color: white;
+            margin-top: 10px;
+            font-style: italic;
+            transition: color 0.5s;
+        }
+
+        header:hover .slogan {
+            color: orange;
+        }
+
+        .content {
+            padding: 40px;
+            text-align: center;
+            border-radius: 15px;
+            background-color: #e6dca5;
+            width: 90%;
+            max-width: 800px;
+            margin: 20px auto;
+            color: rgb(155, 104, 10);
+            text-align: left;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+            transition: transform 0.3s;
+        }
+
+        .content:hover {
+            transform: scale(1.02);
+        }
+
+        .content h2 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 1.2rem;
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+
+        .signup {
+            margin-top: 50px;
+            text-align: center;
+        }
+
+        .signup h2 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+        }
+
+        .thumbnail {
+            margin: 20px auto;
+            cursor: pointer;
+            transition: transform 0.3s;
+        }
+
+        .thumbnail:hover {
+            transform: scale(1.05);
+        }
+
+        .thumbnail img {
+            width: 100%;
+            max-width: 300px;
+            height: auto;
+            border: 2px solid #ddd;
+            border-radius: 8px;
+            transition: border-color 0.3s;
+            margin-left:800px;
+            
+        }
+
+        .thumbnail img:hover {
+            border-color: #4CAF50;
+        }
+
+        footer {
+            background-color: #1c1c1c;
+            text-align: center;
+            padding: 10px 0;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+            color: white;
+        }
+
+        footer p {
+            margin: 0;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+
+        @media (max-width: 600px) {
+            h1 {
+                font-size: 2.5rem;
+            }
+
+            .content h2 {
+                font-size: 2rem;
+            }
+
+            .signup h2 {
+                font-size: 2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>Bit Driven</h1>
+        <p class="slogan">Empowering Every Learner's Journey</p>
+    </header>
+
+    <!-- Main Content -->
+    <div class="content">
+        <h2>Our Mission: Empowering Slow Learners</h2>
+        <p>
+            We believe in the power of individualized learning techniques to help slow learners. Our platform offers 
+            interactive learning methods designed to assist those who need extra guidance. From personalized lessons 
+            to engaging activities, we focus on making learning fun and effective for everyone.
+        </p>
+        <p>
+            Whether it's through the use of visual aids, hands-on activities, or digital tools, we ensure that every 
+            student progresses at their own pace. Join us as we bridge the gap for slow learners with innovative and 
+            supportive teaching strategies.
+        </p>
+    </div>
+
+    <!-- Sign Up Section -->
+    <div class="signup">
+        <h2>Click here to get started with our form!!</h2>
+    </div>
+
+    <!-- Thumbnail -->
+    <div class="thumbnail" onclick="window.location.href='form.html'">
+        <img src="Group 27 (1).png" alt="Sign Up Thumbnail">
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>Contact Us: microsoftrishik@gmail.com</p>
+    </footer>
+
+</body>
+</html>
